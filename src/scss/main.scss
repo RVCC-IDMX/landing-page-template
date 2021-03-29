@@ -1,7 +1,5 @@
 @use './base/reset';
-@use "./abstracts/variables" as *;
 @use "./base/typography";
 @use "./pages/landing-page";
 @use "./components/nav";
 @use "./components/hero";
-@use "./components/media-queries";
