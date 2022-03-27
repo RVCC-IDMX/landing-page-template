@@ -1,15 +1,16 @@
 {
   "name": "landing-page",
   "private": true,
-  "description": "",
+  "description": "starter files for landing page assignment",
   "version": "0.1.0",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "rm -f dist/* && parcel build src/index.html"
   },
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.32.4"
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2",
+    "sass": "^1.49.8"
   }
 }
